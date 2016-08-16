@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cadastre-se</title>
+  <meta charset="utf-8">
+  <link rel = "stylesheet" href="./CSS/cadastro.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div id="logo">
+      <img src="./img/logobold.png" width="100" height="50"/>
+    </div>
+    <nav class="fR">
+      <ul class="l2">
+        <li>
+          <a href="login.html" title="Login">Login</a>
+        </li>
+        <li>
+          <a href="cadastro.html" title="Criar Conta">Criar Conta</a>
+        </li>
+        <li>
+          <a href="eventos.html" title="eventos">Eventos Perto de você</a>
+        </li>
+        <li>
+          <a href="sobre.html" title="sobre">Sobre nós</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+<div id="cadastro">
+  <h1>Cadastre-se</h1>
+  <form name="account">
+    <input type="hidden" name="codigo_dos_produto" value="034, 035"/>
+    <p><label for="name"> Nome<br> </label><input type="text" id= "name" name="nome" maxlength="35" required></p>
+    <p><label for="lastname"> Sobrenome <br></label><input type="text" id= "lastname" name="nome" maxlength="35" required></p>
+    <p><label for="address"> Endereço <br></label><input type="text" id= "address" name="nome" maxlength="50" required></p>
+    <p><label for="city"> Cidade <br></label><input type="text" id= "city" name="nome" maxlength="50" required></p>
+    <p><label for="senha">Senha <br></label><input type="password" id="senha" name="senha" maxlength="32" required></p>
+    <p><label for="senha2">Redigite a Senha<br></label><input type="password" id="senha2" name="senha" maxlength="32" required></p>
+    <p><label for="enviar"></label><input type="submit" id="enviar" name="enviar" value="Criar Conta"/></p>
+  </form>
+</div>
+
+</body>
+
+</html>
