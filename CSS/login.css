@@ -1,6 +1,5 @@
-
 body{
-  background-color: #ff3b3b;
+  background-color: #ccc;
 }
 
 header {
@@ -14,7 +13,6 @@ header {
   z-index: 2;
 }
 
-
 #logo{
   position: fixed;
   top:10px;
@@ -27,54 +25,52 @@ header {
   display: block;
 }
 
-
-
 nav ul {
   list-style: none outside none;
-  margin: 0px;
-  text-decoration: none;
-}
+  margin: 0;
 
+}
 ul{
   list-style-type: none;
   font-family:"Roboto", sans-serif;
-
-
+  display: inline;
+  text-align: center;
 }
 
 li{
   font-family: "Roboto", sans-serif;
   float: right;
   text-align: center;
+  margin-top: 25px;
 }
 
 h1{
-  font-family:"Roboto", sans-serif;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
-
-}
-h2{
-  font-family:"Roboto", sans-serif;
-  color:#f05656;
+  font-family: "Roboto" sans-serif;
 }
 
-h3{
-  font-family:"Roboto", sans-serif;
+form{
+  text-align: center;
+  margin-top:200px;
 }
 
-p{
-  font-family:"Roboto", sans-serif;
-  text-align: justify;
-  color: #ffffff;
-  margin-left: 60px;
-  margin-right: 60px;
+#login{
+  text-align: center;
 }
+
 
 a:link {
   text-decoration: none;
+  color:#6E6E6E;
 }
 
 a:hover{
   text-decoration: none;
+    color: #6E6E6E;
+}
+
+a:visited {
+    text-decoration: none;
+      color: #6E6E6E;
 }
