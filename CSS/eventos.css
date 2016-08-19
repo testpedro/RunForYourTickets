@@ -1,7 +1,7 @@
 body{
-  background-image: url(https://www.protagoras.tue.nl/symposium/wp-content/uploads/2016/01/tickets.jpg);
-  background-size: cover;
+  background-color:#ccc;
 }
+
 
 header {
   min-height: 66px;
@@ -51,33 +51,51 @@ header {
 }
 
 #info h1{
-  font-family:"Roboto", sans-serif;
-  color: #ffffff;
   text-align: center;
+  font-family: "Roboto", sans-serif;
   margin-top: 100px;
-  font-size: 40px;
-
+  color: #DF0101;
 }
 
-#info p{
-  font-family:"Roboto", sans-serif;
-  text-align: justify;
-  color: #ffffff;
-  margin-left: 60px;
-  margin-right: 60px;
-  margin-bottom: 10px;
-  border-style: hidden;
-
-}
-
-#anuncie input{
-  margin-top: 200px;
-  margin-left: 40%;
+#info h2{
   text-align: center;
-  font-family:"Roboto", sans-serif;
-  font-size: 30px;
-  width: 200px;
-  height: 60px;
-  border-style: hidden;
-/*  color: white;*/
+  font-family: "Roboto", sans-serif;
+}
+
+.grid{
+  display: inline-block;
+  vertical-align:inherit;
+  max-width:960;
+  margin-left:80px;
+
+}
+
+.grid h3{
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+
+#post1{
+  display: inherit;
+}
+
+#post2{
+  display: inherit;
+}
+
+#post3{
+  display: inherit;
+}
+
+#post4{
+  display: inherit;
+}
+
+#post5{
+  display: inherit;
+}
+
+#post6{
+  display: inherit;
 }

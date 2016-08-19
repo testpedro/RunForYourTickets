@@ -1,51 +1,88 @@
 
-p{
-  text-align: justify;
-  margin-left: 60px;
-  margin-right: 60px;
-  color:#000000;
-  background-color: #ffffff;
+body{
+  background-image: image("./img/banner.jpg");
+  background-size: cover;
+}
+
+header {
+  min-height: 66px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom: 1px solid #ccc;
+  background: #ffffff;
+  z-index: 2;
+}
+
+
+#logo{
+  position: fixed;
+  top:10px;
+  left:10px;
+
+}
+
+#menu ul {
+	padding:0px;
+	margin:0px;
+	color:#EDEDED;
+	list-style:none;
+  text-align:right;
+  margin-top: 30px;
+}
+
+#menu ul li {
+  display: inline;
+  font-family: "Roboto", sans-serif;
+}
+
+#menu ul li a{
+	padding: 2px 10px;
+	display: inline-block;
+	color: #333;
+	text-decoration: none;
+}
+
+#menu ul li a:hover{
+	padding: 2px 10px;
+	display: inline-block;
+	color: #000;
+	text-decoration: none;
 }
 
 h1{
-  border-color: red;
-  border-style:dotted;
-  border-width: 5px;
-  font-family:"Lucida Console", sans-serif;
-  text-align: center;
-  background-color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+  margin-left: 60px;
 }
-h2{
+.container{
+  margin-top: 100px;
+}
+.container p{
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+  margin-left: 60px;
+  margin-right: 700px;
+  color:#000000;
+}Y
+
+.container h1{
+  font-family:"Roboto", sans-serif;
+  margin-left: 60px;
+  margin-top: 150px;
+  color:#000000;
+  display: inline-block;
+}
+
+.container h2{
   color: #000000;
-  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  margin-left: 60px;
+  margin-top:60px;
+  display: inline-block;
 }
 
-
-h3{
-  font-family: "Courier New", sans-serif;
-  font-style: italic;
-  color: #000000;
-
-}
-
-body{
-  font-family:"Ubuntu", "Helvetica", sans-serif;
-  background-color:#FFF5EE;
-  color: red;
-  background-image: url();
-}
-
-img{
-  border-color: red;
-  border-style:dotted;
-  border-width: 5px;
-  background-color: #ffffff;
-
-}
-
-figure{
-}
-
-figcaption{
-  font-style: italic;
+.banner{
+display: inline;
 }
