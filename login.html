@@ -1,52 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
   <title>Login</title>
   <meta charset = "utf-8">
   <link rel = "stylesheet" href="./CSS/login.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
-<!--Inserir à esquerda a parte de login e senha  e o formulário para submissão de cadastro-->
 <!-- Links levam para página com formulaŕio para anunciar o ingresso-->
 <body>
 
   <header>
     <div id="logo">
-      <img src="./img/logobold.png" width="100" height="50"/>
+      <img src="./img/logobold.png" width="100" height="50" alt=""/>
     </div>
-
-    <nav class="fR">
-      <ul class="l2">
-        <li>
-          <a href="login.html" title="Login"> Login</a>
-        </li>
-        <li>
-          <a href="cadastro.html" title="Criar Conta">Criar Conta</a>
-        </li>
-        <li>
-          <a href="eventos.html" title="eventos">Eventos Perto de você</a>
-        </li>
-        <li>
-          <a href="sobre.html" title="sobre">Sobre nós</a>
-        </li>
+    <nav id="menu">
+      <ul>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="cadastro.html">Criar Conta</a></li>
+        <li><a href="eventos.html">Eventos</a></li>
+        <li><a href="sobre.html">Sobre nós</a></li>
       </ul>
     </nav>
   </header>
 
-  <h1>Login to Run For Your Tickets</h1>
-
   <div id="login">
-    <form method="post" action="index.html">
-      <p><input type="text" name="login" value="" placeholder="Username or Email"></p>
-      <p><input type="password" name="password" value="" placeholder="Password"></p>
-      <p class="remember_me">
-        <label>
-          <input type="checkbox" name="remember_me" id="remember_me">
-          Remember me on this computer
-        </label>
-      </p>
+    <h1>Login to Run For Your Tickets</h1>
+    <form name="login">
+      <p><label for="name">Email<br> </label><input type="text" id= "name" maxlength="35" required></p>
+      <p><label for="senha">Senha <br></label><input type="password" id="senha"  maxlength="32" required></p>
+      <p>Remember me on this computer<input type="checkbox" id="remember_me"></p>
      <p class="submit"><input type="submit" name="commit" value="Login"></p>
    </form>
-
-    </body>
+ </div>
+</body>
 </html>
