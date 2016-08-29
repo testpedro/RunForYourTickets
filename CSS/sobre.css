@@ -1,7 +1,6 @@
 
 body{
-  background-image: image("./img/banner.jpg");
-  background-size: cover;
+  background-color: white;
 }
 
 header {
@@ -58,21 +57,23 @@ h1{
 }
 .container{
   margin-top: 100px;
+
 }
+
 .container p{
   font-family: "Roboto", sans-serif;
   text-align: justify;
   margin-left: 60px;
   margin-right: 700px;
   color:#000000;
-}Y
+}
 
 .container h1{
   font-family:"Roboto", sans-serif;
   margin-left: 60px;
   margin-top: 150px;
   color:#000000;
-  display: inline-block;
+
 }
 
 .container h2{
@@ -80,9 +81,11 @@ h1{
   font-family: "Roboto", sans-serif;
   margin-left: 60px;
   margin-top:60px;
-  display: inline-block;
+
 }
 
-.banner{
-display: inline;
+#banner{
+  display: inline;
+  text-align: right;
+  margin-top: 100px;
 }

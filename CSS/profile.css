@@ -1,7 +1,6 @@
 body{
-  background-color:#ccc;
+background-color: white;
 }
-
 
 header {
   min-height: 66px;
@@ -29,6 +28,7 @@ header {
 	list-style:none;
   text-align:right;
   margin-top: 30px;
+  position:static;
 }
 
 #menu ul li {
@@ -50,53 +50,29 @@ header {
 	text-decoration: none;
 }
 
-#info h1{
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  margin-top: 100px;
-  color: #DF0101;
-}
-
-#info h2{
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-}
-
-.grid{
-  display: inline-block;
-  vertical-align:inherit;
-  max-width:960;
-  margin-left:80px;
+.panel{
+  border-radius: 5px;
+  border-color: #000;
+  border-style: dotted;
+  width: 200px;
 
 }
 
-.grid h3{
-  font-family: "Roboto", sans-serif;
-  text-align: center;
+.panel ul{
+	color:#EDEDED;
+	list-style:none;
   text-decoration: none;
-
+  text-align:center;
+  margin-top: 100px;
+  position:static;
 }
 
-#post1{
-  display: inherit;
-}
+.panel li{
+  color:#EDEDED;
+  list-style:none;
+  text-decoration: none;
+  text-align:left;
+  margin-top: 5px;
+  position:static;
 
-#post2{
-  display: inherit;
-}
-
-#post3{
-  display: inherit;
-}
-
-#post4{
-  display: inherit;
-}
-
-#post5{
-  display: inherit;
-}
-
-#post6{
-  display: inherit;
 }
