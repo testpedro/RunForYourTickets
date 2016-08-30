@@ -21,12 +21,33 @@
     </nav>
   </header>
 
-
-  <div id="info">
+  <div class="info">
     <h1>Anunciar e comprar ingressos ficou ainda mais fácil</h1>
-    <p>Cansado do sufoco de tentar vender de última hora ingressos daquele evento que você não vai poder ir? A Run For Your Tickets pode resolver pra você.<br>
-       A maior comunidade de anúncio de ingressos online, traz o lugar perfeito para encontrar um comprador, perto de você.</p>
   </div>
 
-</body>
-</html>
+  <div class="login">
+    <h1>Login to Run For Your Tickets</h1>
+      <form name="login">
+        <p><label for="name"><br></label><input type="text" id= "name" maxlength="35" placeholder="Email" required></p>
+        <p><label for="senha"><br></label><input type="password" id="senha"  maxlength="32" placeholder="Senha" required></p>
+        <p>Remember me on this computer<input type="checkbox" id="remember_me"></p>
+        <p class="submit"><input type="submit" name="commit" value="Login"></p>
+      </form>
+    </div>
+
+    <div class="cadastro">
+      <h1>Cadastre-se</h1>
+      <form name="account">
+        <p><label for="name"> Nome<br> </label><input type="text" id= "name" name="nome" maxlength="35" required></p>
+        <p><label for="lastname"> Sobrenome <br></label><input type="text" id= "lastname" name="nome" maxlength="35" required></p>
+        <p><label for="address"> Endereço <br></label><input type="text" id= "address" name="nome" maxlength="50" required></p>
+        <p><label for="city"> Cidade <br></label><input type="text" id= "city" name="nome" maxlength="50" required></p>
+        <p><label for="senha">Senha <br></label><input type="password" id="senha" name="senha" maxlength="32" required></p>
+        <p><label for="senha2">Redigite a Senha<br></label><input type="password" id="senha2" name="senha" maxlength="32" required></p>
+        <p><label for="enviar"></label><input type="submit" id="enviar" name="enviar" value="Criar Conta"/></p>
+      </form>
+    </div>
+
+
+  </body>
+  </html>
