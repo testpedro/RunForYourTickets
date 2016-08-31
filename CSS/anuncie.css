@@ -1,6 +1,6 @@
 
 body{
-background-color: white;
+background-color: #26547c;
 }
 
 header {
@@ -52,17 +52,102 @@ header {
 
 .info{
   font-family:"Roboto", sans-serif;
-  margin-left: 100px;
   margin-top: 100px;
 }
 
 .info h1{
   text-align: center;
   font-size: 40px;
-
+  font-weight: normal;
+  color: white;
 }
 
-.info p{
-  text-align: justify;
-  
+.holder{
+  padding: 10%;
+  padding-top: 0.5%;
+}
+
+.login{
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  border-style: hidden;
+  border-radius: 10px;
+  width:40%;
+  background-color: #ffffff;
+  float: left;
+  display: inline-block;
+}
+
+.login form{}
+
+.login h1{
+  text-align: center;
+  color:#000;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+.login label{
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+}
+.login input{
+  border-width: thin;
+  border-style:solid;
+  border-color: #ccc;
+  border-spacing: 10px;
+  border-radius: 5px;
+  height: 25px;
+}
+
+.cadastro{
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  border-style: hidden;
+  border-radius: 10px;
+  width:50%;
+  background-color: #ffffff;
+  float: right;
+  display: inline-block;
+}
+
+.cadastro h1{
+  font-family: "Roboto", sans-serif;
+  color:#000000;
+  text-align: center;
+  font-weight: normal;
+}
+
+.cadastro input{
+  border-width: thin;
+  border-style:solid;
+  border-color: #ccc;
+  border-radius: 5px;
+  height: 25px;}
+
+.cadastro label{
+  font-size: 12px;
+}
+
+#button{
+  border-width: thin;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #ef476f;
+  width: 30%;
+  height: 20%;
+  margin-left:30%;
+}
+
+#button a{
+  color: white;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+#button a:hover{
+  color: #ccc;
 }

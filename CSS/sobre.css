@@ -52,12 +52,12 @@ header {
 
 h1{
   font-family: "Roboto", sans-serif;
+  font-weight: normal;
   text-align: justify;
   margin-left: 60px;
 }
 .container{
   margin-top: 100px;
-
 }
 
 .container p{

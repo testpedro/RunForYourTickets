@@ -1,5 +1,5 @@
 body{
-background-color: white;
+background-color:#06d6A0;
 }
 
 header {
@@ -12,7 +12,6 @@ header {
   background: #ffffff;
   z-index: 2;
 }
-
 
 #logo{
   position: fixed;
@@ -50,12 +49,23 @@ header {
 	text-decoration: none;
 }
 
+.holder{
+  margin-left: 100px;
+  margin-right: 100px;
+  max-height: 50%;
+}
+
 .panel{
   border-radius: 5px;
-  border-color: #000;
-  border-style: dotted;
+  border-color: white;
+  border-style:solid;
   width: 200px;
-
+  margin-top: 10%;
+  margin-right:2%;
+  background-color: white;
+  display: inline-block;
+  float: left;
+  font-family: "Roboto", sans-serif;
 }
 
 .panel ul{
@@ -63,8 +73,6 @@ header {
 	list-style:none;
   text-decoration: none;
   text-align:center;
-  margin-top: 100px;
-  position:static;
 }
 
 .panel li{
@@ -73,6 +81,69 @@ header {
   text-decoration: none;
   text-align:left;
   margin-top: 5px;
-  position:static;
+}
 
+.panel li a{
+  text-decoration: none;
+  color: #000;
+}
+.panel li a:hover{
+  border-style: solid;
+  border-color: #ccc;
+  border-radius: 5px;
+  background-color: #ccc;
+  text-decoration: none;
+}
+
+.panel img{
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 25%;
+  max-width: 50%;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+}
+.panel p{
+  font-size: 12px;
+  text-align: center;
+}
+
+.content{
+  border-radius: 5px;
+  border-color: white;
+  border-style:solid;
+  width: 500px;
+  margin-top: 10%;
+  background-color: white;
+  display: inline-block;
+
+}
+
+.content h1{
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #000;
+  text-align: left;
+}
+.content h2{
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+.pedidos{
+  height: 50%;
+  text-align: left;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #ccc;
+}
+.anuncio {
+  height: 50%;
+  text-align: left;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #ccc;
 }
