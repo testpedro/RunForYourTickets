@@ -65,6 +65,7 @@ header {
 .holder{
   padding: 10%;
   padding-top: 0.5%;
+  padding-bottom: 40%;
 }
 
 .login{
@@ -76,6 +77,8 @@ header {
   background-color: #ffffff;
   float: left;
   display: inline-block;
+  height: 100%;
+  padding-bottom: 7.8%;
 }
 
 .login form{}
@@ -91,6 +94,10 @@ header {
   font-size: 10px;
   font-family: "Roboto", sans-serif;
   text-align: left;
+}
+.login p{
+  font-size: 12px;
+
 }
 .login input{
   border-width: thin;
@@ -110,6 +117,8 @@ header {
   background-color: #ffffff;
   float: right;
   display: inline-block;
+
+  padding-bottom: 5%;
 }
 
 .cadastro h1{
@@ -117,6 +126,7 @@ header {
   color:#000000;
   text-align: center;
   font-weight: normal;
+  margin-bottom: 5px;
 }
 
 .cadastro input{
@@ -124,10 +134,16 @@ header {
   border-style:solid;
   border-color: #ccc;
   border-radius: 5px;
-  height: 25px;}
+  height: 25px;
+}
 
 .cadastro label{
   font-size: 12px;
+}
+
+.cadastro p{
+  display: inline-block;
+  text-align: left;
 }
 
 #button{
@@ -136,7 +152,7 @@ header {
   text-align: center;
   background-color: #ef476f;
   width: 30%;
-  height: 20%;
+  height: 25px;
   margin-left:30%;
 }
 
@@ -145,7 +161,7 @@ header {
   text-align: center;
   font-family: "Roboto", sans-serif;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 #button a:hover{

@@ -1,5 +1,5 @@
 body{
-  background-color:#ccc;
+  background-color:#00aced;
 }
 
 
@@ -46,8 +46,9 @@ header {
 #menu ul li a:hover{
 	padding: 2px 10px;
 	display: inline-block;
-	color: #000;
+	color: #1dcaff;
 	text-decoration: none;
+
 }
 
 #info h1{
@@ -55,50 +56,78 @@ header {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   margin-top: 100px;
-  color: #DF0101;
+  color:white;
 }
 
 #info h2{
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
+  color: white;
+  font-size: 16px;
 }
 
 .grid{
   display: inline-block;
-  vertical-align:inherit;
-  max-width:960;
-  margin-left:80px;
-
+  vertical-align:middle;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px;
+  border-color: white;
+  background-color: white;
+}
+.grid img{
+  border-style: solid;
+  border-width: thin;
+  border-color: #ccc;
+  text-align: center;
 }
 
 .grid h3{
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
   text-align: center;
   text-decoration: none;
+  margin-top: -10px;
 
+}
+.grid a{
+  text-decoration: none;
+  color: black;
+}
+.grid a:hover{
+  color: #1dcaff;
 }
 
 #post1{
   display: inherit;
+  margin-left: 0%;
 }
 
 #post2{
   display: inherit;
+  margin-left: 0%;
 }
 
 #post3{
   display: inherit;
+  margin-left: 0%;
 }
 
 #post4{
   display: inherit;
+  margin-left: 0%;
 }
 
 #post5{
   display: inherit;
+  margin-left: 0%;
 }
 
 #post6{
   display: inherit;
+  margin-left: 0%;
 }
