@@ -1,5 +1,5 @@
 body{
-background-color:#06d6A0;
+background-color:#1dcaff;
 }
 
 header {
@@ -89,9 +89,9 @@ header {
 }
 .panel li a:hover{
   border-style: solid;
-  border-color: #ccc;
+  border-color: #00aced;
   border-radius: 5px;
-  background-color: #ccc;
+  background-color: #00aced;
   text-decoration: none;
 }
 
@@ -123,12 +123,14 @@ header {
 .content h1{
   font-family: "Roboto", sans-serif;
   font-size: 18px;
+  font-weight: normal;
   color: #000;
   text-align: left;
 }
 .content h2{
   font-family: "Roboto", sans-serif;
   font-size: 12px;
+  font-weight: normal;
 }
 
 .pedidos{

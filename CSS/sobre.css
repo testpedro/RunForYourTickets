@@ -1,7 +1,8 @@
 
 body{
-  background-color: white;
+  background-color: #00aced;
 }
+
 
 header {
   min-height: 66px;
@@ -13,7 +14,6 @@ header {
   background: #ffffff;
   z-index: 2;
 }
-
 
 #logo{
   position: fixed;
@@ -29,6 +29,7 @@ header {
 	list-style:none;
   text-align:right;
   margin-top: 30px;
+  position:static;
 }
 
 #menu ul li {
@@ -55,9 +56,11 @@ h1{
   font-weight: normal;
   text-align: justify;
   margin-left: 60px;
-}
+  color: #ffffff;
+  }
 .container{
-  margin-top: 100px;
+  margin-top: 80px;
+  color: white;
 }
 
 .container p{
@@ -65,27 +68,31 @@ h1{
   text-align: justify;
   margin-left: 60px;
   margin-right: 700px;
-  color:#000000;
+  color:#ffffff;
 }
 
 .container h1{
   font-family:"Roboto", sans-serif;
   margin-left: 60px;
-  margin-top: 150px;
-  color:#000000;
+  margin-top: 100px;
+  color:#ffffff;
+  font-weight: normal;
 
 }
 
 .container h2{
-  color: #000000;
+  color: #ffffff;
   font-family: "Roboto", sans-serif;
   margin-left: 60px;
-  margin-top:60px;
+  margin-top:30px;
+  font-weight: normal;
 
 }
 
-#banner{
-  display: inline;
-  text-align: right;
-  margin-top: 100px;
+#banner img{
+    text-align: right;
+    float: right;
+    width: 200px;
+    height: 200px;
+
 }

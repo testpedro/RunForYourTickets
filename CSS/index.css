@@ -74,6 +74,8 @@ header {
   border-style: hidden;
 
 }
+
+
 #button a{
   border-width: thin;
   border-radius: 5px;
@@ -81,12 +83,15 @@ header {
   background-color: white;
   margin-top:100px;
   margin-right: 120px;
-  height: 50px;
+  height: 40px;
   width: 200px;
   float: right;
   font-family: "Roboto", sans-serif;
   text-decoration: none;
   font-size: 25px;
+  vertical-align:middle;
+  color: #000;
+
 }
 
 #button a:hover{
