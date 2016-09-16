@@ -2,23 +2,15 @@
 <html lang="pt">
 <head>
   <title>Meu Perfil</title>
+  <link rel ="stylesheet" href="./CSS/reset.css">
+  <link rel="stylesheet" href="./CSS/general.css">
   <link rel="stylesheet" href="./CSS/profile.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <meta charset = "utf-8">
 </head>
 <body>
   <header>
-    <div id="logo">
-      <img src="./img/logobold.png" width="100" height="50" alt=""/>
-    </div>
-    <nav id="menu">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="eventos.html">Eventos</a></li>
-        <li><a href="sobre.html">Sobre nós</a></li>
-
-      </ul>
-    </nav>
+    <?php include('header.php');?>
   </header>
   <div class="holder">
     <div class="panel">

@@ -4,22 +4,14 @@
   <title>Twenty One Pilots</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+  <link rel ="stylesheet" href="./CSS/reset.css">
+  <link rel="stylesheet" href="./CSS/general.css">
   <link rel = "stylesheet" href="./CSS/description.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>
-        <img src="./img/logobold.png" width="100" height="50" alt=""/>
-    </h1>
-    <nav id="menu">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="login.html">Login</a></li>
-        <li><a href="cadastro.html">Criar Conta</a></li>
-        <li><a href="sobre.html">Sobre nós</a></li>
-      </ul>
-    </nav>
+    <?php include('header.php');?>
   </header>
 
   <div class="holder">

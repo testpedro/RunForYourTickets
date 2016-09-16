@@ -4,31 +4,22 @@
   <title>Eventos</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+  <link rel ="stylesheet" href="./CSS/reset.css">
+  <link rel="stylesheet" href="./CSS/general.css">
   <link rel = "stylesheet" href="./CSS/eventos.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
   <header>
-    <div id="logo">
-        <img src="./img/logobold.png" width="100" height="50" alt=""/>
-    </div>
-    <nav id="menu">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="anuncie.html">Login</a></li>
-        <li><a href="anuncie.html">Criar Conta</a></li>
-        <li><a href="sobre.html">Sobre nós</a></li>
-      </ul>
-    </nav>
+    <?php include('header.php');?>
   </header>
-
   <div id="info">
     <h1>Eventos em Breve</h1>
     <h2>Aqui você confere os eventos mais próximos a você</h2>
   </div>
 
   <div class= "grid">
-  <div id ="post1">
+  <div class="post">
     <article>
       <a href="description.html">
         <figure>
@@ -39,7 +30,7 @@
     </article>
   </div>
 
-  <div id="post2">
+  <div class="post">
     <article>
       <a href="description.html">
         <figure>
@@ -50,7 +41,7 @@
     </article>
   </div>
 
-  <div id="post3">
+  <div class="post">
     <article>
       <a href="description.html">
         <figure>
@@ -61,7 +52,7 @@
     </article>
   </div>
 
-  <div id="post4">
+  <div class="post">
     <article>
       <a href="description.html">
         <figure>
@@ -72,7 +63,7 @@
     </article>
   </div>
 
-  <div id="post5">
+  <div class="post">
     <article>
       <a href="description.html">
         <figure>
@@ -84,7 +75,7 @@
   </div>
 
 
-  <div id="post6">
+  <div class="post">
     <article>
       <a href="description.html">
         <figure>
@@ -95,7 +86,7 @@
     </article>
   </div>
 
-  <div id="post7">
+  <div class="post">
     <article>
       <a href="description.html">
         <figure>
@@ -106,7 +97,7 @@
     </article>
   </div>
 
-  <div id="post8">
+  <div class="post">
     <article>
       <a href="description.html">
         <figure>

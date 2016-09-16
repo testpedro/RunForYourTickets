@@ -1,97 +1,44 @@
 body{
-background-image: url("../img/banner1.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-}
-
-header {
-  min-height: 66px;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  border-bottom: 1px solid #ccc;
-  background: #ffffff;
-  z-index: 2;
-}
-
-#logo{
-  position: fixed;
-  top:10px;
-  left:10px;
-}
-
-#menu ul {
-	padding:0px;
-	margin:0px;
-	color:#EDEDED;
-	list-style:none;
-  text-align:right;
-  margin-top: 30px;
-}
-
-#menu ul li {
-  display: inline;
-  font-family: "Roboto", sans-serif;
-}
-
-#menu ul li a{
-	padding: 2px 10px;
-	display: inline-block;
-	color: #333;
-	text-decoration: none;
-}
-
-#menu ul li a:hover{
-	padding: 2px 10px;
-	display: inline-block;
-	color: #000;
-	text-decoration: none;
+  background-image: url("../img/banner1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .info{
-  margin-left: 200px;
+  margin-left: 10%;
   margin-top: 220px;
   display: block;
-  font-weight: normal;
 }
 
 .info h1{
-  font-family:"Roboto", sans-serif;
   color: #fff;
   text-align: left;
-  margin-top: 90px;
   font-size: 60px;
-  font-weight: normal;
 }
 
 .info p{
-  font-family:"Roboto", sans-serif;
+  margin-top: 30px;
   font-size: 30px;
-  text-align: justify;
+  text-align: left;
   color: #fff;
-  margin-bottom: 10px;
   border-style: hidden;
-
 }
 
+#button{
+  margin-left: 30%;
+  margin-right: 60%;
+  margin-top: 10%;
+  height: 50px;
+  background-color: white;
+  border-radius: 5px;
+}
 
 #button a{
-  border-width: thin;
-  border-radius: 5px;
+  vertical-align: middle;
   text-align: center;
-  background-color: white;
-  margin-top:100px;
-  margin-right: 120px;
-  height: 40px;
-  width: 200px;
-  float: right;
-  font-family: "Roboto", sans-serif;
   text-decoration: none;
   font-size: 25px;
-  vertical-align:middle;
   color: #000;
-
 }
 
 #button a:hover{
