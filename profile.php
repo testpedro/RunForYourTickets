@@ -1,6 +1,8 @@
-<!DOCTYPE html>
-<html lang="pt">
-<head>
+<?php
+$header_title="Meu Perfil";
+$header_css='<link rel="stylesheet" href="./CSS/index.css">';
+include("header.php");
+?>
   <title>Meu Perfil</title>
   <link rel ="stylesheet" href="./CSS/reset.css">
   <link rel="stylesheet" href="./CSS/general.css">
