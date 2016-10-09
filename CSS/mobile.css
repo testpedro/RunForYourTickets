@@ -28,3 +28,14 @@
   margin-top: 40%;
   margin-bottom: 20%;
 }
+
+.login{
+  margin-left: 2%;
+  margin-right: %;
+  text-align: center;
+  border-style: hidden;
+  border-radius: 10px;
+  width:95%;
+  background-color: #ffffff;
+  height: 100%;
+}

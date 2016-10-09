@@ -7,25 +7,51 @@ body{
   background-color:#1dcaff;
 }
 
-#info h1{
+h1{
   text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
   margin-top: 100px;
   color:white;
+  font-size: 30px;
 }
 
-#info h2{
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
-  color: white;
-  font-size: 16px;
+.field {
+  display:flex;
+  position:relative;
+  margin:5em auto;
+  width:80%;
+  flex-direction:row;
+  box-shadow:
+   1px 1px 0 rgb(0, 132, 180),
+   2px 2px 0 rgb(0, 132, 180),
+   3px 3px 0 rgb(0, 132, 180),
+   4px 4px 0 rgb(0, 132, 180),
+   5px 5px 0 rgb(0, 132, 180),
+   6px 6px 0 rgb(0, 132, 180),
+   7px 7px 0 rgb(0, 132, 180);
+}
+
+.field>input[type=text],
+.field>button {
+  display:block;
+  font:1.2em 'Roboto';
+}
+
+.field>input[type=text] {
+  flex:1;
+  padding:0.6em;
+  border:0.2em solid rgb(0, 172, 237);
+}
+
+.field>button {
+  padding:0.6em 0.8em;
+  background-color:rgb(0, 172, 237);
+  color:white;
+  border:none;
 }
 
 .grid{
   display: inline-block;
-  vertical-align:middle;
+  margin-top: 1%;
   margin-left: 10%;
   margin-right: 10%;
   border-style: solid;
@@ -58,5 +84,5 @@ body{
 
 .post{
   display: inherit;
-  margin-left: 0%;
+  margin-left: 3.5%;
 }
