@@ -3,12 +3,15 @@ $header_title="Eventos";
 $header_css='<link rel="stylesheet" href="./CSS/eventos.css">';
 include("header.php");
 ?>
-  <div id="info">
-    <h1>Eventos em Breve</h1>
-    <h2>Aqui você confere os eventos mais próximos a você</h2>
-  </div>
 
-  <div class= "grid">
+<h1>Eventos em Breve</h1>
+<div class="field" id="searchform">
+  <input type="text" id="searchterm" placeholder="Pesquise Eventos" />
+  <button type="button" id="search">Find!</button>
+</div>
+
+<div class= "grid">
+
     <div class="post">
       <article>
         <a href="description.html">

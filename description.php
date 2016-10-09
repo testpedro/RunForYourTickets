@@ -35,7 +35,6 @@ include("header.php");
       <p>Email: fernandasbonetti@gmail.com</p>
       <p>Contatar Anunciante</p>
       <p>Número de ingressos disponíveis para o evento: 5</p>
-
     </div>
   </div>
   <div class="button">

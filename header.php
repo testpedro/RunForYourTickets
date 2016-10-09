@@ -17,9 +17,9 @@
     </div>
     <nav id="menu">
       <ul>
-        <li><a href="anuncie.php">Login</a></li>
-        <li><a href="eventos.php">Eventos</a></li>
-        <li><a href="sobre.php">Sobre nós</a></li>
+        <li><a href="anuncie.php"><?php print $nav1;?></a></li>
+        <li><a href="eventos.php"><?php print $nav2;?></a></li>
+        <li><a href="sobre.php"><?php print $nav3;?></a></li>
       </ul>
     </nav>
   </header>
