@@ -39,3 +39,18 @@
   background-color: #ffffff;
   height: 100%;
 }
+
+.side-bar{
+  margin-top: 25%;
+  width: 100%;
+  background-color: #2b2b2b;
+}
+
+.user-info{
+  height: 5%;
+}
+
+
+.user-info img{
+display: none;
+}

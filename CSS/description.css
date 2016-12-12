@@ -1,98 +1,47 @@
-@viewport {
-  width: device-width;
-  zoom: 1;
-}
+
 body{
-  background-color:#1dcaff;
+  background-color: #c0deed;
 }
-
-.holder{
+.event-info{
+  margin: 10% 10%;
   background-color: white;
-  margin-top: 8%;
-  margin-right: device-width;
-  margin-left: device-width;
-  border-radius: 5px;
 }
 
-.banner{
-  max-width: 100%;
-  margin-top: 10%;
-}
-.banner img{
-  margin-top: 2%;
-  max-width: 100%;
+.event-info img{
+margin-left: 2%;
 }
 
-.info h1{
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
-  margin-left: 2%;
-}
-.info p{
-  font-family: "Roboto", sans-serif;
-    margin-left: 2%;
-}
-.info h2{
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
+.event-info h1{
+  font-size: 28px;
+  margin-bottom: 5%;
   margin-left: 2%;
 }
 
-.info figure{
-  display: inline-block;
-  position: relative;
-  margin-right: 0%;
-  width: 25%;
-}
-.info img{
-  max-width: 100%;
-  border-radius:50%;
-  -moz-border-radius:50%;
-  -webkit-border-radius:50%;
-  margin-left: 0.5%;
-  display: inline;
+.descrpt li{
+  margin-bottom: 5px;
+  margin-left: 2%;
+
 }
 
-.maps{
-  overflow:hidden;
-  max-width:100%;
-  margin-left: 0%;
+.anunc{
+  margin-top: 5%;
+}
+
+.anunc h2{
+  font-size: 24px;
+  margin-bottom: 5%;
+  margin-left: 2%;
 }
 
 
-.button{
-  background-color: #1dcaff;
-  border-radius: 5px;
-  width: 20%;
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  margin-left: 40%;
+.pub img{
+  border-radius: 50%;
+  width: 50px;
 }
-.button a{
-  color: white;
-  text-decoration: none;
-}
-.button a:hover{
-  color:#c0deed;
+.pub ol{
+  margin-left: 2%;
 }
 
-.contato{
-  border-radius: 5px;
-  border-style: solid;
-  border-width: thin;
-  border-color: #ccc;
-  display: inline-block;
-  max-width: 100%;
-  vertical-align:top;
-  padding: 7%;
-}
-
-figcaption{
-  font-family: "Roboto", sans-serif;
-  color: #333;
-  text-align: center;
-}
-.contato p{
-  font-size: 14px;
-  color: #333;
+.anunc li{
+  margin-bottom: 5px;
 }

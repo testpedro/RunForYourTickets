@@ -1,104 +1,41 @@
 body{
-background-color:#1dcaff;
+  background-color: #fff;
 }
 
-.holder{
-  margin-left: 100px;
-  margin-right: 100px;
-  max-height: 50%;
+.side-bar{
+  margin-top: 60px;
+  float:left;
+  width: 20%;
+  background-color: #2b2b2b;
 }
 
-.panel{
-  border-radius: 5px;
-  border-color: white;
-  border-style:solid;
-  width: 200px;
-  margin-top: 10%;
-  margin-right:2%;
-  background-color: white;
-  display: inline-block;
-  float: left;
-  font-family: "Roboto", sans-serif;
+.user-info{
+  height: 350px;
 }
 
-.panel ul{
-	color:#EDEDED;
-	list-style:none;
-  text-decoration: none;
-  text-align:center;
-}
-
-.panel li{
-  color:#EDEDED;
-  list-style:none;
-  text-decoration: none;
-  text-align:left;
-  margin-top: 5px;
-}
-
-.panel li a{
-  text-decoration: none;
-  color: #000;
-}
-.panel li a:hover{
-  border-style: solid;
-  border-color: #00aced;
-  border-radius: 5px;
-  background-color: #00aced;
-  text-decoration: none;
-}
-
-.panel img{
+.user-info img{
   text-align: center;
-  margin-top: 5%;
-  margin-left: 25%;
-  max-width: 50%;
-  border-radius:50%;
-  -moz-border-radius:50%;
-  -webkit-border-radius:50%;
-}
-.panel p{
-  font-size: 12px;
-  text-align: center;
+  margin: 30px 30px;
+  width: 80%;
+  height: 60%;
+  border-radius: 50%;
 }
 
-.content{
-  border-radius: 5px;
-  border-color: white;
-  border-style:solid;
-  width: 500px;
-  margin-top: 10%;
-  background-color: white;
-  display: inline-block;
-
+.nav-user li{
+  margin-bottom: 1px;
+  height: 40px;
+  padding-top: 20px;
+  padding-bottom: 1px;
+  background-color: #303030;
+}
+.nav-user li:hover{
+  background-color: #363636;
+  cursor: pointer;
 }
 
-.content h1{
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-weight: normal;
-  color: #000;
-  text-align: left;
-}
-.content h2{
-  font-family: "Roboto", sans-serif;
-  font-size: 12px;
-  font-weight: normal;
-}
-
-.pedidos{
-  height: 50%;
-  text-align: left;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: thin;
-  border-color: #ccc;
-}
-.anuncio {
-  height: 50%;
-  text-align: left;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: thin;
-  border-color: #ccc;
+.nav-user a{
+  margin-left: 15%;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #ccc;
 }

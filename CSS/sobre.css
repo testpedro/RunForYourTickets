@@ -3,48 +3,34 @@ body{
   background-color: #00aced;
 }
 
-h1{
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
-  text-align: justify;
-  margin-left: 60px;
-  color: #ffffff;
-  }
-.container{
-  margin-top: 80px;
-  color: white;
+.banner{
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 10%;
 }
 
-.container p{
-  font-family: "Roboto", sans-serif;
+.banner img{
+  text-align: center;
+  width: 200px;
+  height: 200px;
+}
+
+.holdr{
+  margin-top: 10%;
+  margin-left: 5%;
+  max-width:60%;
+}
+
+.holdr h1{
+  color: #fff;
+}
+
+.holdr p{
+  margin-top: 1%;
   text-align: justify;
-  margin-left: 60px;
-  margin-right: 700px;
   color:#ffffff;
 }
 
-.container h1{
-  font-family:"Roboto", sans-serif;
-  margin-left: 60px;
-  margin-top: 100px;
-  color:#ffffff;
-  font-weight: normal;
-
-}
-
-.container h2{
-  color: #ffffff;
-  font-family: "Roboto", sans-serif;
-  margin-left: 60px;
-  margin-top:30px;
-  font-weight: normal;
-
-}
-
-#banner img{
-    text-align: right;
-    float: right;
-    width: 200px;
-    height: 200px;
-
-}
+.holdr h2{
+  color: #fff;
+  margin-top:30px;}

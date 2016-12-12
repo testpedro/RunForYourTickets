@@ -44,7 +44,7 @@ header {
 	text-decoration: none;
 }
 
-h1, h1, h3, p, label, a, ul, li{
+h1, h2, h3, p, label, a, ul, li{
   font-weight: normal;
   font-family:"Roboto", sans-serif;
 }

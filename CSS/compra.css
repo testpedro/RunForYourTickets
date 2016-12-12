@@ -1,0 +1,67 @@
+body{
+  background-color: #c0deed;
+}
+
+.tickets{
+  background-color: white;
+  margin: 10% 10%;
+  width: 30%;
+  float:left;
+  padding: 2% 2%;
+}
+
+.tickets h1{
+  line-height: 30px;
+  font-size: 25px;
+  font-weight: 300;
+  color: #ADADAD;
+  text-align:center;
+  margin-bottom: 2%;
+}
+
+.tickets dt{
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+}
+
+.confirm{
+  background-color: white;
+  width: 30%;
+  margin-top: 10%;
+  padding: 2% 2%;
+  float: left;
+}
+.confirm h1{
+  line-height: 30px;
+  font-size: 25px;
+  font-weight: 300;
+  color: #ADADAD;
+  text-align:center;
+  margin-bottom: 2%;
+}
+.confirm dt{
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+}
+
+.payment{
+  background-color: #fff;
+  clear: left;
+  margin-left: 10%;
+  width: 75%;
+  padding: 2% 2%;
+}
+
+.payment h1{
+  line-height: 30px;
+  font-size: 25px;
+  font-weight: 300;
+  color: #ADADAD;
+  text-align:center;
+  margin-bottom: 2%;
+}
+
+.payment dt{
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+}

@@ -1,128 +1,70 @@
 
 body{
-background-color: #1dcaff;
+background-image: url("../img/festival.jpg");
+background-repeat: no-repeat;
+background-size: cover;
 }
 
-.info{
-  margin-top: 100px;
+.anuncie{
+  margin: 100px auto;
+  width: 300px;
+  padding: 30px 25px;
+  background: white;
+  border: 1px solid #c4c4c4;
+
 }
 
-.info h1{
+.anuncie img{
+  margin-left: 5%;
+  width: 50px;
+  height: 50px;
+}
+
+.login-input {
+  width: 285px;
+  height: 50px;
+  margin-bottom: 25px;
+  padding-left:10px;
+  font-size: 15px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-button {
+  width: 100%;
+  height: 50px;
+  padding: 0;
+  font-size: 20px;
+  color: #fff;
   text-align: center;
-  font-size: 40px;
-  color: white;
-}
-
-.holder{
-  margin-top: 2%;
-  margin-left: 2%;
-  margin-right: 2%;
-  max-height: 20%;
-}
-
-.login{
-  text-align: center;
-  border-style: hidden;
-  border-radius: 10px;
-  width:45%;
-  background-color: #ffffff;
-  float: left;
-  display: inline-block;
-  height: 100%;
-
-}
-
-.login h1{
-  margin-top: 2%;
-  text-align: center;
-  color:#1dcaff;
-  margin-bottom: 5%;
-  font-size: 18px;
-}
-
-.login label{
-  font-size: 12px;
-  text-align: left;
-  color: #1dcaff;
-}
-
-.login p{
-  font-size: 12px;
-  margin-top: 2%;
-}
-
-.login input{
-  border-width: thin;
-  border-style:solid;
-  border-color: #ccc;
-  border-spacing: 10px;
+  background: #f0776c;
+  border: 0;
   border-radius: 5px;
-  height: 25px;
-  max-width: 90%;
+  cursor: pointer;
+  outline:0;
 }
 
-.cadastro{
-  text-align: center;
-  border-style: hidden;
-  border-radius: 10px;
-  width:50%;
-  background-color: #ffffff;
-  float: right;
-  display: inline-block;
+h1.login-title {
+  margin: -28px -25px 25px;
+  padding: 15px 25px;
+  line-height: 30px;
+  font-size: 25px;
+  font-weight: 300;
+  color: #ADADAD;
+  text-align:center;
 
 }
-
-.cadastro h1{
-  color:#1dcaff;
-  text-align: center;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  font-size: 18px;
+.anuncie p{
+  color: #363636;
 }
 
-.cadastro input{
-  border-width: thin;
-  border-style:solid;
-  border-color: #ccc;
-  border-radius: 5px;
-  height: 25px;
-}
-
-.cadastro label{
+#fileupload{
+  margin-bottom: 25px;
   font-size: 12px;
-  text-align: right;
-  color: #1dcaff;
-
 }
 
-.cadastro p{
-  text-align: center;
-}
+.anuncie label{
+  font-size: 10px;
 
-.login #button{
-  margin-top: 10%;
-}
-#button{
-  border-width: thin;
-  border-radius: 5px;
-  text-align: center;
-  background-color: #1dcaff;
-  width: 30%;
-  height: 25px;
-  margin-left:35%;
-  margin-top: 5%;
-  margin-bottom: 1%;
-}
-
-#button a{
-  vertical-align: middle;
-  color: white;
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  text-decoration: none;
-  font-size: 14px;
-}
-
-#button a:hover{
-  color: #ccc;
 }
