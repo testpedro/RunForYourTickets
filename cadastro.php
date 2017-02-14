@@ -8,9 +8,8 @@ include("header.php");
 
 ?>
 
-
 <div class="login">
-  <form name="register" action="profile.php" method="post">
+  <form name="register" action="#" method="post">
     <h1 class="login-title">Cadastre-se</h1>
 
     <fieldset id="first">
@@ -34,8 +33,9 @@ include("header.php");
       <input type="text" class="login-input" name="cep" maxlength="30" placeholder="CEP" required>
       <input type="text" class="login-input" name="city" maxlength="50" placeholder="Cidade" required>
       <input type="text" class="login-input" name="logr" maxlength="50"  placeholder="Logradouro" required>
+      <input type="text" class="login-input" name="nlog" placeholder="Nº" required>
       <input type="text" class="login-input" name="bairro" maxlength="30"  placeholder="Bairro" required>
-      <input class="login-button" onclick="validation(event)" type="submit" value="Submit" >
+      <input class="login-button"  type="submit" value="submit" >
     </fieldset>
   </form>
 </div>

@@ -7,8 +7,7 @@
   <link rel="stylesheet" href="./CSS/general.css">
   <link rel="stylesheet" href="./CSS/mobile.css" media="(max-width:939px)"/>
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<!--  <script src="./js/jquery-3.1.1.js" type="text/javascript"></script>
--->
+
 <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
 <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
 <script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>

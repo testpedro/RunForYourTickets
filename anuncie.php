@@ -24,8 +24,7 @@ include("header.php");
       <option value="cinema">Cinema</option>
       <option value="other">Other</option>
     </select><br>
-    <p>Selecione uma imagem para o evento:</p><br>
-    <input type="file" name="fileupload" value="fileupload" id="fileupload">
+  
     <input type="submit" value="Criar Evento" class="login-button">
   </form>
 </div>
