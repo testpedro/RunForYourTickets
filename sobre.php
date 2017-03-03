@@ -1,7 +1,10 @@
 <?php
 $header_title="Sobre";
 $header_css='<link rel="stylesheet" href="./CSS/sobre.css">';
-$nav1="Eventos";
+$nav1link="index.php";
+$nav2link="signin.php";
+$nav3link="newevent.php";
+$nav1="Home";
 $nav2="Login";
 $nav3="Anuncie";
 include("header.php");

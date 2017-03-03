@@ -1,6 +1,9 @@
 <?php
 $header_title="Eventos";
 $header_css='<link rel="stylesheet" href="./CSS/eventos.css">';
+$nav1link="index.php";
+$nav2link="signin.php";
+$nav3link="sobre.php";
 $nav1="Home";
 $nav2="Login";
 $nav3="Sobre Nós";
@@ -31,70 +34,18 @@ include("header.php");
 			<section class="painel novidades">
 				<h2>Eventos em alta</h2>
 				<ol>
+          <?php foreach ($lista_eventos as $event): ?>
 					<li>
-						<a href="description.php">
+            <!--PERDOA AS GAMBIARRA HUSDAUHUEHUAHEU-->
+            <?php $url="eventdescription.php?id=".$event['evnb'];?>
+						<a href=<?php echo $url?>>
 							<figure>
-								<img src="img/twenty.jpg">
-								<figcaption>Twenty One Pilots</figcaption>
+								<img src="<?php echo $event['evpic']?>">
+								<figcaption><?php echo $event['evname']?></figcaption>
 							</figure>
 						</a>
 					</li>
-          <li>
-						<a href="description.php">
-							<figure>
-								<img src="img/twenty.jpg">
-								<figcaption>Twenty One Pilots</figcaption>
-							</figure>
-						</a>
-					</li>
-          <li>
-						<a href="description.php">
-							<figure>
-								<img src="img/twenty.jpg">
-								<figcaption>Twenty One Pilots</figcaption>
-							</figure>
-						</a>
-					</li>
-          <li>
-            <a href="description.php">
-              <figure>
-                <img src="img/twenty.jpg">
-                <figcaption>Twenty One Pilots</figcaption>
-              </figure>
-            </a>
-          </li>
-          <li>
-						<a href="description.php">
-							<figure>
-								<img src="img/twenty.jpg">
-								<figcaption>Twenty One Pilots</figcaption>
-							</figure>
-						</a>
-					</li>
-          <li>
-						<a href="description.php">
-							<figure>
-								<img src="img/twenty.jpg">
-								<figcaption>Twenty One Pilots</figcaption>
-							</figure>
-						</a>
-					</li>
-          <li>
-						<a href="description.php">
-							<figure>
-								<img src="img/twenty.jpg">
-								<figcaption>Twenty One Pilots</figcaption>
-							</figure>
-						</a>
-					</li>
-          <li>
-						<a href="description.php">
-							<figure>
-								<img src="img/twenty.jpg">
-								<figcaption>Twenty One Pilots</figcaption>
-							</figure>
-						</a>
-					</li>
+        <?php endforeach; ?>
 				</ol>
 			</section>
 		</div>

@@ -27,9 +27,9 @@ $(function() {
     </div>
     <nav id="menu">
       <ul>
-        <li><a href="anuncie.php"><?php print $nav1;?></a></li>
-        <li><a href="eventos.php"><?php print $nav2;?></a></li>
-        <li><a href="sobre.php"><?php print $nav3;?></a></li>
+        <li><a href="<?php echo $nav1link;?>"><?php print $nav1;?></a></li>
+        <li><a href="<?php echo $nav2link;?>"><?php print $nav2;?></a></li>
+        <li><a href="<?php echo $nav3link;?>"><?php print $nav3;?></a></li>
       </ul>
     </nav>
   </header>

@@ -39,3 +39,9 @@ body{
   text-decoration: none;
   color: #ccc;
 }
+
+legend{
+  font-family: "Roboto", sans-serif;
+  margin-left: 3%;
+  color:white;
+}

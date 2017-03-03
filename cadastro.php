@@ -1,6 +1,9 @@
 <?php
 $header_title="Cadastro";
 $header_css='<link rel="stylesheet" href="./CSS/cadastro.css">';
+$nav1link="showevents.php";
+$nav2link="signin.php";
+$nav3link="sobre.php";
 $nav1="Eventos";
 $nav2="Login";
 $nav3="Quem somos";
@@ -9,7 +12,7 @@ include("header.php");
 ?>
 
 <div class="login">
-  <form name="register" action="#" method="post">
+  <form name="register" action="profile.php" method="post">
     <h1 class="login-title">Cadastre-se</h1>
 
     <fieldset id="first">

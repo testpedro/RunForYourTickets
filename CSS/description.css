@@ -1,14 +1,14 @@
-
 body{
-  background-color: #c0deed;
+  background-color: white;
 }
+
 .event-info{
   margin: 10% 10%;
   background-color: white;
 }
 
 .event-info img{
-margin-left: 2%;
+  margin-left: 2%;
 }
 
 .event-info h1{
